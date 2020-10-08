@@ -21,7 +21,7 @@ public class Updatecontroller {
 	public String update(@RequestBody Customer c)
 	{
 		us.update(c);
-		System.out.println("new update commit");
+	
 		return "Update Succefully";
 				
 	}
